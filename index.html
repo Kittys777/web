@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Popis stránky">
-        <meta name="keywords" content="klíčová slova">
         <title>EduPlus</title>
     </head>
     <body>
-        <nav>
-            <!--LOGO-->
+        <nav>
+            <img src="images/icons/logo.png" alt="Logo">
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Courses</a></li>
-                <li><a>Events</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li><a rel = "internal">Home</a></li>
+                <li><a rel = "internal">Courses</a></li>
+                <li><a rel = "internal">Events</a></li>
+                <li><a rel = "internal">Pages</a></li>
+                <li><a rel = "internal">Blog</a></li>
+                <li><a rel = "internal" href="contact_us.html">Contact</a></li>
             </ul>
-            <a><img></a>
-            <a><img></a>
-            <a><img></a>
-            <a><img></a>
-        </nav>       
-        <header>
-            <h1>More than 1200 Online Courses</h1>
+            <a rel = "external" href="https://www.facebook.com/"><img src="images/icons/facebook_header.png" alt="Facebook"></a>
+            <a rel = "external" href = "https://www.youtube.com/"><img src="images/icons/youtube_header.png" alt="YouTube"></a>
+            <a rel = "internal"><img src="images/icons/user.png"> SIGN IN</a>
+            <a rel = "internal"><img src="images/icons/menu.png" alt="Menu"></a>
+        </nav>
+        <header id="header">
+        <p>*** Welcome To EduPlus</p>    
+        <h1>More than 1200 Online Courses</h1>
             <!--Search Courses-->
             <p>Sed ut perspiciatis unde omnis natus error sit voluptatem</p>
             <img>
@@ -33,86 +32,252 @@
             </aside>
         </header>
         <main>
-            <div>
-                <section>
-                    <p>*** Popular Categories ***</p>
-                    <h2>Course Categories</h2>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Popular Categories ***</p>
-                    <h2>Available Caurses</h2>
-                    <button>VIEW ALL COURSES</button>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Photo & Album ***</p>
-                    <h2>Campus Gallery</h2>
-                    <ul>
-                        <li>Show All</li>
-                        <li>University</li>
-                        <li>Group Study</li>
-                        <li>Awards</li>
-                        <li>Students</li>
-                        <li>Teahers</li>
-                        <li>Campus</li>
-                    </ul>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Team Members ***</p>
-                    <h2>Expert Instructors</h2>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Latest Events ***</p>
-                    <h2>Upcoming Events</h2>
-                    <button>VIEW ALL EVENTS</button>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Students Feedback ***</p>
-                    <h2>What Our Students Say</h2>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Build a Career ***</p>
-                    <h2>Become an Instructor</h2>
-                    <button>JOIN WITH US</button>
-                    <button>BECOME A PARTNER</button>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <p>*** Articles & Tips ***</p>
-                    <h2>Latest News & Blog</h2>
-                </section>
-            </div>
+            <section id="course_cathegories">
+                <p>*** Popular Categories ***</p>
+                <h2>Course Categories</h2>
+                <div>
+                  <div>
+                      <img src="images/" alt="Graphic Designer">
+                      <h3>Graphic Designer (<abbr title="User Interface">UI</abbr>)</h3>
+                      <p>Web Design Course</p>
+                      <p><img src="" alt=""> 250 <img src="" alt=""> 800+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Business Studies">
+                      <p>Finance Business</p>
+                      <h3>Business Studies</h3>
+                      <p><img src="" alt=""> 320 <img src="" alt=""> 750+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Web Development">
+                      <h3>Web Development</h3>
+                      <p></p>
+                      <p><img src="" alt=""> 320 <img src="" alt=""> 750+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Product Engineering">
+                      <h3>Product Engineering</h3>
+                      <p>Web Design Course</p>
+                      <p><img src="" alt=""> 320 <img src="" alt=""> 750+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Basic Photography">
+                      <h3>Basic Photography</h3>
+                      <p>Film Movies & Photography</p>
+                      <p><img src="" alt=""> 320 <img src="" alt=""> 750+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Medical & Health">
+                      <h3>Medical & Health</h3>
+                      <p>Doctors & Nursing</p>
+                      <p><img src="" alt=""> 250 <img src="" alt=""> 800+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Marketing Strategy">
+                      <h3>Marketing Strategy</h3>
+                      <p>Socail Media Marketing</p>
+                      <p><img src="" alt=""> 250 <img src="" alt=""> 50+ Courses</p>
+                  </div>
+                  <div>
+                      <img src="images/" alt="Mobile UI Design">
+                      <h3>Mobile <abbr title="User Interface">UI</abbr> Design</h3>
+                      <p>Web Design Course</p>
+                      <p><img src="" alt=""> 320 <img src="" alt=""> 750+ Courses</p>
+                  </div>
+                </div>
+            </section>
+            <section id="popular courses">
+                <p>*** Popular Categories ***</p>
+                <h2>Available Caurses</h2>
+                <div>
+                    <img>
+                    <p><img>Warner</p>
+                    <!--Peníze-->
+                    <!--ENGLISH a hodnocení-->
+                    <h3>Best Courses For Learning English Courses</h3>
+                    <!--ČÁRA?-->
+                    <p><img>25 <img>36hr <img>2.5k</p>                    
+                </div>
+                <div>
+                    <!--Business a hodnocení-->
+                    <h3>Learning About It Consulting Business Solutions</h3>
+                    <p><img> Warner</p>
+                    <!--Peníze-->
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Integer in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <button>GET ENROLLED</button>
+                    <p><img>25 <img>36hr <img>2.5k</p>
+                </div>
+                <div>
+                    <img>
+                    <p><img> Warner</p>
+                    <!--Peníze-->
+                    <!--ENGLISH a hodnocení-->
+                    <h3>Introduce About Basic Web Design For Beginners</h3>
+                    <!--ČÁRA?-->
+                    <p><img>25 <img>36hr <img>2.5k</p> 
+                </div>
+                <button>VIEW ALL COURSES</button>
+            </section>
+            <section id="photo_and_album">
+                <p>*** Photo & Album ***</p>
+                <h2>Campus Gallery</h2>
+                <ul>
+                    <li>Show All</li>
+                    <li>University</li>
+                    <li>Group Study</li>
+                    <li>Awards</li>
+                    <li>Students</li>
+                    <li>Teahers</li>
+                    <li>Campus</li>
+                </ul>
+            </section>
+            <section id="team_members">
+                <p>*** Team Members ***</p>
+                <h2>Expert Instructors</h2>
+                <div>
+                    <div>
+                        <img>
+                        <!--rojíždějící se plusko-->
+                        <h3>Somalia D Silva</h3>
+                        <p>Math Teacher</p>
+                        <!--Čára-->
+                        <p><img>750+ Courses</p>
+                    </div>
+                    <div>
+                        <img>
+                        <!--rojíždějící se plusko-->
+                        <h3>David D Warner</h3>
+                        <p>English Teacher</p>
+                        <!--Čára-->
+                        <p><img>3850+ Courses</p>
+                    </div>
+                    <div>
+                        <img>
+                        <!--rojíždějící se plusko-->
+                        <h3>Xavi Toni Crusse</h3>
+                        <p>Computer Teacher</p>
+                        <!--Čára-->
+                        <p><img>600+ Courses</p>
+                    </div>
+                    <div>
+                        <img>
+                        <!--rojíždějící se plusko-->
+                        <h3>Shaine Watson</h3>
+                        <p>Web Designer</p>
+                        <!--Čára-->
+                        <p><img>985+ Courses</p>
+                    </div>
+                </div>
+            </section>
+            <section id="latest_events">
+                <p>*** Latest Events ***</p>
+                <h2>Upcoming Events</h2>
+                <div>
+                    <img>
+                    <!--peníze-->
+                    <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>08 AM - 09 PM <img> PARIS, FRANCE</p>
+                    <h3>Web Design & Development Conference 2020</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam erat volutpat. Duis condimentum augue id magna semper rutrum. Nulla non arcu lacinia neque faucibus fringilla. Phasellus et lorem id felis nonummy placerat. Phasellus faucibus molestie nisl. Praesent id justo in neque elementum ultrices.</p>
+                    <button>JOINT EVENT</button>                    
+                </div>
+                <div>
+                    <img>
+                    <!--Peníze-->
+                    <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>08 AM - 09 PM</p>
+                    <h3>Annual Conference 2020</h3>
+                    <button>JOINT EVENT</button>                    
+                </div>
+                <div>
+                    <img>
+                    <!--Peníze-->
+                    <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>08 AM - 09 PM</p>
+                    <h3>Annual Conference 2020</h3>
+                    <button>JOINT EVENT</button>                    
+                </div>
+                <button>VIEW ALL EVENTS</button>
+            </section>
+            <section id="students_feedback">
+                <p>*** Students Feedback ***</p>
+                <h2>What Our Students Say</h2>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Mauris elementum mauris vitae tortor. In convallis. Pellentesque ipsum. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nulla est. Vestibulum fermentum tortor id mi. Donec iaculis gravida nulla. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Maecenas sollicitudin. Fusce tellus. Ut tempus purus at lorem. Aliquam erat volutpat.</p>
+                    <small>Nullam dapibus fermentum ipsum. Ut tempus purus at lorem. Fusce suscipit libero eget elit. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante</small>
+                    <img>
+                    <h4>Sousa Fernandes</h4>
+                    <p>CEO & Founder</p>
+                    <button><- <img></button>
+                    <button>-> <img></button>
+                    <img>
+                </div>
+            </section>
+            <section id="build_a_creer">
+                <img>
+                <p>*** Build a Career ***</p>
+                <h2>Become an Instructor</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Maecenas libero. Etiam posuere lacus quis dolor. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Fusce nibh. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna.</p>
+                <div>
+                    <div>
+                        <img>
+                        <h3>Digitalization</h3>
+                        <small>Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus.</small>
+                    </div>
+                    <div>
+                        <img>
+                        <h3>Book Friendly</h3>
+                        <small>Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus.</small>
+                    </div>
+                </div>
+                <button>JOIN WITH US</button>
+                <button>BECOME A PARTNER</button>
+            </section>
+            <section id="articles_and_tips">
+                <p>*** Articles & Tips ***</p>
+                <h2>Latest News & Blog</h2>
+                <div>
+                    <div>
+                        <img>
+                        <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>COM(30)</p>
+                        <h3>Learning Resources In Challenec Times Online Workshops</h3>
+                        <p><img> David Simala</p>
+                        <button>-> <img></button>                    
+                    </div>
+                    <div>
+                        <img>
+                        <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>COM(30)</p>
+                        <h3>Djang Highlights Models Admin And Harness Rela Tional Database</h3>
+                        <p><img> David Simala</p>
+                        <button>-> <img></button>                    
+                    </div>
+                    <div>
+                        <img>
+                        <p><img><time datetime="2020-11-25">25 NOV 2020</time> <img>COM(30)</p>
+                        <h3>Smash Podcast Episode With Laura Kalbag What Is Online Privacy</h3>
+                        <p><img> David Simala</p>
+                        <button>-> <img></button>                    
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer>
-            <img>
-            <img> <!--LOGO-->
-            <ul>
-                <li>
-                    <a><img>Facebook</a>
-                </li>
-                <li>
-                    <a><img>Twitter</a>
-                </li>
-                <li>
-                    <a><img>Youtube</a>
-                </li>
-                <li>
-                    <a><img>Instagram</a>
-                </li>
-            </ul>
-            <section>
+        <footer>
+            <img src="images/footer.png" alt="Sponsors">
+            <img src="images/icons/white_logo.png" alt="LOGO">
+            <div>
+                <ul>
+                    <li>
+                        <a><img src="images/icons/facebook.png" alt="Facebook" rel="external">Facebook</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/twitter.png" alt="Twitter" rel="external">Twitter</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/youtube.png" alt="Youtube" rel="external">Youtube</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/instagram.png" alt="Instagram" rel="external">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
                 <h3>Our Courses</h3>
                 <ul>
                     <li>
@@ -145,33 +310,36 @@
                         <a>Basic PSD to HTML</a>
                     </li> 
                 </ul>
-            </section>
-            <section>
-                    <h3>Company</h3>
-                    <ul>
-                        <li>
-                            <a>About Eduket</a>
-                        </li>
-                        <li>
-                            <a>Meet Advisors</a>
-                        </li> 
-                        <li>
-                            <a>Join A Career</a>
-                        </li> 
-                        <li>
-                            <a>Latest Courses</a>
-                        </li> 
-                        <li>
-                            <a>Newsletter</a>
-                        </li>             
-                    </ul>
-                </section>
-                <section>
-                    <h3>Newsletter</h3>
-                    <p>Aenean fermentum risus id tortor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris elementum mauris vitae tortor.</p>
-                    <!--Enter Your Email thingy-->
-                </section>
-                <p>Copyright © 2020 <b>Edu</b>Plus All Rights Reserved</p>
-        </footer>
-    </body>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li>
+                        <a>About Eduket</a>
+                    </li>
+                    <li>
+                        <a>Meet Advisors</a>
+                    </li> 
+                    <li>
+                        <a>Join A Career</a>
+                    </li> 
+                    <li>
+                        <a>Latest Courses</a>
+                    </li> 
+                    <li>
+                        <a>Newsletter</a>
+                    </li>             
+                </ul>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Aenean fermentum risus id tortor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris elementum mauris vitae tortor.</p>
+                <!--Enter Your Email thingy-->
+            </div>
+            <small>Copyright © 2020 <b>Edu</b>Plus All Rights Reserved</small>
+            <div>
+                <a href="#header" rel="internal"><button >^</button></a>
+            </div>
+        </footer>  
+    </body>
 </html>

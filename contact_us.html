@@ -1,86 +1,90 @@
-<!DOCTYPE html>
-<html lang="cs">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Popis stránky">
-        <meta name="keywords" content="klíčová slova">
-        <title>Contact Us</title>
-    </head>
-    <body>
-        <nav>
-            <img>
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Popis stránky">
+        <meta name="keywords" content="klíčová slova">
+        <title>Contact Us</title>
+    </head>
+    <body>
+    <nav>
+        <img src="images/icons/logo.png" alt="Logo">
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Courses</a></li>
-                <li><a>Events</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li><a rel = "internal">Home</a></li>
+                <li><a rel = "internal">Courses</a></li>
+                <li><a rel = "internal">Events</a></li>
+                <li><a rel = "internal">Pages</a></li>
+                <li><a rel = "internal">Blog</a></li>
+                <li><a rel = "internal" href="contact_us.html">Contact</a></li>
             </ul>
-            <a><img></a>
-            <a><img></a>
-            <a><img></a>
-            <a><img></a>
+            <a rel = "external" href="https://www.facebook.com/"><img src="images/icons/facebook_header.png" alt="Facebook"></a>
+            <a rel = "external" href = "https://www.youtube.com/"><img src="images/icons/youtube_header.png" alt="YouTube"></a>
+            <a rel = "internal"><img src="images/icons/user.png"> SIGN IN</a>
+            <a rel = "internal"><img src="images/icons/menu.png" alt="Menu"></a>
         </nav>
-        <header>
+        <header id="header">
             <h1>Contact Us</h1>
             <p>Home > Contact Us</p>
         </header>
         <main>
-            <section>
+            <div>
                 <p>*** Quick Contact</p>
                 <h2>Get In Touch</h2>
                 <p>In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Sed ac dolor sit amet purus malesuada congue. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. In convallis. Nullam rhoncus aliquam metus. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <address>
+                    <section>
+                        <img>
+                        <h4>Locations</h4>
+                        <p>250 Main Street, New York</p>
+                    </section>
+                    <section>
+                        <img>
+                        <h4>Email Us</h4>
+                        <p>support@gmail.com</p>
+                    </section>
+                    <section>
+                        <img>
+                        <h4>Phone Us</h4>
+                        <p>+012 (345) 6489 99</p>
+                    </section>
+                </address>
                 <section>
-                    <img>
-                    <h4>Locations</h4>
-                    <p>250 Main Street, New York</p>
+                    <a rel="external" href="https://www.facebook.com" ><img alt="Facebook icon"></a>
+                    <a rel="external" href="https://www.twitter.com" ><img alt="Twitter icon"></a>
+                    <a rel="external" href="https://www.youtube.com" ><img alt="Youtube icon"></a>
+                    <a rel="external" href="https://www.linkedin.com" ><img alt="LinkedIn icon"></a>
                 </section>
-                <section>
-                    <img>
-                    <h4>Email Us</h4>
-                    <p>support@gmail.com</p>
-                </section>
-                <section>
-                    <img>
-                    <h4>Phone Us</h4>
-                    <p>+012 (345) 6489 99</p>
-                </section>
-                <section>
-                    <a><img></a>
-                    <a><img></a>
-                    <a><img></a>
-                    <a><img></a>
-                </section>
-            </section>
+            </div>
+            <div>
+                <!--MAPA-->
+            </div>
+            <div>
+                <p>*** Get In Touch ***</p> 
+                <h2>Leave Us Message</h2>
+                <!--nevím-->
+                <button>SEND MESSAGE ---></button>
+            </div>
         </main>
-        <section>
-            <!--mapa-->
-        </section>
-        <section>
-            <p>*** Get In Touch ***</p> 
-            <h2>Leave Us Message</h2>
-            <!--nevím-->
-            <button>SEND MESSAGE</button>
-        </section>
         <footer>
-            <img>
-            <img> <!--LOGO-->
-            <ul>
-                <li>
-                    <a><img>Facebook</a>
-                </li>
-                <li>
-                    <a><img>Twitter</a>
-                </li>
-                <li>
-                    <a><img>Youtube</a>
-                </li>
-                <li>
-                    <a><img>Instagram</a>
-                </li>
-            </ul>
-            <section>
+            <img src="images/footer.png" alt="Sponsors">
+            <img src="images/icons/white_logo.png" alt="LOGO">
+            <div>
+                <ul>
+                    <li>
+                        <a><img src="images/icons/facebook.png" alt="Facebook" rel="external">Facebook</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/twitter.png" alt="Twitter" rel="external">Twitter</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/youtube.png" alt="Youtube" rel="external">Youtube</a>
+                    </li>
+                    <li>
+                        <a><img src="images/icons/instagram.png" alt="Instagram" rel="external">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
                 <h3>Our Courses</h3>
                 <ul>
                     <li>
@@ -113,33 +117,36 @@
                         <a>Basic PSD to HTML</a>
                     </li> 
                 </ul>
-            </section>
-            <section>
-                    <h3>Company</h3>
-                    <ul>
-                        <li>
-                            <a>About Eduket</a>
-                        </li>
-                        <li>
-                            <a>Meet Advisors</a>
-                        </li> 
-                        <li>
-                            <a>Join A Career</a>
-                        </li> 
-                        <li>
-                            <a>Latest Courses</a>
-                        </li> 
-                        <li>
-                            <a>Newsletter</a>
-                        </li>             
-                    </ul>
-                </section>
-                <section>
-                    <h3>Newsletter</h3>
-                    <p>Aenean fermentum risus id tortor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris elementum mauris vitae tortor.</p>
-                    <!--Enter Your Email thingy-->
-                </section>
-                <p>Copyright © 2020 <b>Edu</b>Plus All Rights Reserved</p>
-        </footer>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li>
+                        <a>About Eduket</a>
+                    </li>
+                    <li>
+                        <a>Meet Advisors</a>
+                    </li> 
+                    <li>
+                        <a>Join A Career</a>
+                    </li> 
+                    <li>
+                        <a>Latest Courses</a>
+                    </li> 
+                    <li>
+                        <a>Newsletter</a>
+                    </li>             
+                </ul>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Aenean fermentum risus id tortor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris elementum mauris vitae tortor.</p>
+                <!--Enter Your Email thingy-->
+            </div>
+            <small>Copyright © 2020 <b>Edu</b>Plus All Rights Reserved</small>
+            <div>
+                <a href="#header" rel="internal"><button >^</button></a>
+            </div>
+        </footer>  
     </body>
-</html>
+</html>                       
